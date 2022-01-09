@@ -22,6 +22,8 @@ public class Program {
 		copy(myDoubles, myObject);
 		
 		printList(myDoubles);
+		
+		printList(myObject);
 
 		
 		
@@ -38,6 +40,7 @@ public class Program {
 		for(Object obj : list) {
 			System.out.print(obj + " ");
 		}
+		System.out.println();
 	}
 
 }
