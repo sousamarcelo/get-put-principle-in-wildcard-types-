@@ -17,15 +17,11 @@ public class Program {
 		
 		copy(myInts, myObject);
 		
-		printList(myInts);
+		printList(myObject);
 		
 		copy(myDoubles, myObject);
 		
-		printList(myDoubles);
-		
-		printList(myObject);
-
-		
+		printList(myObject);		
 		
 	}
 	
